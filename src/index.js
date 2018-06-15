@@ -19,8 +19,8 @@ ReactDOM.render(
         <Switch>
           <Route path="/prices/new" component={PricesNew} />
           <Route path="/prices/:id" component={PricesShow} />
-          <Route path="/" component={PricesIndex} />
-          // <Route path="/" component={CategoriesIndex} />
+          // <Route path="/" component={PricesIndex} />
+          <Route path="/" component={CategoriesIndex} />
         </Switch>
       </div>
     </BrowserRouter>
